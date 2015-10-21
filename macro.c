@@ -43,9 +43,9 @@ int main()
 
     printf(FORMAT(BLACK, PLAIN, YELLOW));
     printf("%s", test_string);
-    printf(COLOR_RESET "\n"); 
+    printf(COLOR_RESET "\n");
 
     printf(FORMAT(YELLOW, BRIGHT, MAGENTA));
-    printf("%s", test_string);  
+    printf("%s", test_string);
     printf(COLOR_RESET "\n");
 }
